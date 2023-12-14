@@ -1,0 +1,63 @@
+/* Reset de estilos y estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos del header */
+  .header {
+    background-color: #34B7F1; /* Color verde */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo img {
+    width: 100px; /* Ajusta el tamaño de tu logo */
+    height: auto;
+  }
+  
+  .search input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .search button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #34B7F1; /* Color verde */
+    cursor: pointer;
+  }
+  
+  /* Estilos del cuerpo */
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* Estilos del footer */
+  .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #34B7F1; /* Color verde */
+        text-align: center;
+        padding: 20px;
+      }
+  
+  
+  .social-links img {
+    width: 30px; /* Ajusta el tamaño de tus iconos de redes sociales */
+    margin: 0 5px;
+  }
+  
